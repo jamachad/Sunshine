@@ -40,7 +40,9 @@
     android:authorities="com.example.android.sunshine.app"
     android:name=".data.WeatherProvider"
     android:enabled="true"
-    android:exported="true"></provider>
+    android:exported="true">
+</provider>
+        <service android:name=".service.SunshineService"/>
     </application>
 
 </manifest>
